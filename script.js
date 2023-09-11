@@ -13,7 +13,7 @@ const currentDate = new Date();
 const currentDay = currentDate.toLocaleDateString("en-US", { weekday: "long" });
 const currentUTCTime = currentDate.toUTCString();
 
-slackNameElement.textContent = "Omobolanle O. Shaibu "; 
+slackNameElement.textContent = "Omobolanle O. Shaibu"; 
 currentDayElement.textContent = currentDay;
 currentUTCTimeElement.textContent = currentUTCTime;
 myTrackElement.textContent = "Frontend"; 
