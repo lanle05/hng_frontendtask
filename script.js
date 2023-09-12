@@ -11,7 +11,7 @@ const myTrackElement = document.querySelector('[data-testid="myTrack"]');
 
 const currentDate = new Date();
 const currentDay = currentDate.toLocaleDateString("en-US", { weekday: "long" });
-const currentUTCTime = currentDate.toUTCString();
+const currentUTCTime = currentDate.getTime();
 
 slackNameElement.textContent = "Omobolanle O. Shaibu"; 
 currentDayElement.textContent = currentDay;
